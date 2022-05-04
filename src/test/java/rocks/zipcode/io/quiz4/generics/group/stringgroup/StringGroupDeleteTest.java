@@ -9,7 +9,7 @@ import rocks.zipcode.io.quiz4.generics.Group;
  */
 public class StringGroupDeleteTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         Group<String> group = new Group<>();
         String valueToInsert = "first test";
@@ -22,7 +22,7 @@ public class StringGroupDeleteTest {
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         Group<String> group = new Group<>();
         String valueToInsert = "second test";
@@ -36,7 +36,7 @@ public class StringGroupDeleteTest {
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         // given
         Group<String> group = new Group<>();
         String valueToInsert = "third test";

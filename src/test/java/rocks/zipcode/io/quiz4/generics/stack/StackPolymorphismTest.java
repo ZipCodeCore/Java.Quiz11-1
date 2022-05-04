@@ -11,12 +11,12 @@ import java.util.Collection;
  */
 public class StackPolymorphismTest {
     @Test
-    public void ensureStackIsIterable() {
+    public void ensureStackIsIterableTest() {
         Assert.assertTrue(new MyStack<>() instanceof Iterable);
     }
 
     @Test
-    public void ensureStackIsNotCollection() {
+    public void ensureStackIsNotCollectionTest() {
         Assert.assertFalse(new MyStack<>() instanceof Collection);
     }
 }

@@ -2,7 +2,6 @@ package rocks.zipcode.io.quiz4.generics.sortedgroup.integersortedgroup;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.omg.CORBA.INTERNAL;
 import rocks.zipcode.io.quiz4.generics.Group;
 import rocks.zipcode.io.quiz4.generics.SortedGroup;
 
@@ -11,7 +10,7 @@ import rocks.zipcode.io.quiz4.generics.SortedGroup;
  */
 public class IntegerSortedGroupInsertTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
         Integer firstValue = 1;
@@ -38,7 +37,7 @@ public class IntegerSortedGroupInsertTest {
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
         Integer firstValue = 98;
@@ -66,7 +65,7 @@ public class IntegerSortedGroupInsertTest {
 
 
     @Test
-    public void test3() {
+    public void test3Test() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
         Integer firstValue = Integer.MIN_VALUE;

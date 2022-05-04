@@ -10,7 +10,7 @@ import rocks.zipcode.io.quiz4.generics.ComparableTreeSet;
 public class CompareMultipleElementNeutral {
 
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Arty", "Fee", "Shawl");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Fee", "Shawl", "Arty");
@@ -24,7 +24,7 @@ public class CompareMultipleElementNeutral {
 
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("The", "Quick", "Brown", "Fox", "Jumps");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Jumps", "Brown", "Fox", "Quick", "The");

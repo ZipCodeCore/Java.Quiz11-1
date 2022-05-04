@@ -9,7 +9,7 @@ import rocks.zipcode.io.quiz4.generics.ComparableTreeSet;
  */
 public class NestedSetCompareMultipleElementNegative {
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Arty", "Fee", "Shawl");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Burt", "Bot");
@@ -28,7 +28,7 @@ public class NestedSetCompareMultipleElementNegative {
 
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Froilan", "Miranda");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Wilhem", "Alcivar");

@@ -13,28 +13,28 @@ import java.util.List;
  */
 public class IntegerGroupIterableTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         test(9);
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         test(9, 99);
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         test(9, 99, 999);
     }
 
 
     @Test
-    public void test4() {
+    public void test4Test() {
         test(9, 99, 999, 999);
     }
 
     @Test
-    public void test5() {
+    public void test5Test() {
         test(9, 99, 999, 999, 9999);
     }
 

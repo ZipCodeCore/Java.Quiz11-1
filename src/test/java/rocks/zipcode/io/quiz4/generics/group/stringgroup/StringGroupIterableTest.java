@@ -13,28 +13,28 @@ import java.util.List;
  */
 public class StringGroupIterableTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         test("the");
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         test("the", "quick");
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         test("the", "quick", "brown");
     }
 
 
     @Test
-    public void test4() {
+    public void test4Test() {
         test("the", "quick", "brown", "fox");
     }
 
     @Test
-    public void test5() {
+    public void test5Test() {
         test("the", "quick", "brown", "fox", "jumps");
     }
 

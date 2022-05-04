@@ -10,7 +10,7 @@ import rocks.zipcode.io.quiz4.generics.SortedGroup;
  */
 public class SortedGroupPolymorphismTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         Assert.assertTrue(new SortedGroup() instanceof GroupInterface);
     }
 }

@@ -11,12 +11,12 @@ import java.util.TreeSet;
  */
 public class ComparableTreeSetPolymorphismTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         Assert.assertTrue((Object)new ComparableTreeSet() instanceof TreeSet);
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         Assert.assertTrue(new ComparableTreeSet() instanceof Comparable);
     }
 }

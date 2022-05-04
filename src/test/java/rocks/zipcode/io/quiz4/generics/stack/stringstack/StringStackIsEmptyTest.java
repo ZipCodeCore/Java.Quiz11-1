@@ -17,18 +17,18 @@ public class StringStackIsEmptyTest {
     }
 
     @Test
-    public void test1() {
+    public void test1Test() {
         Assert.assertTrue(stack.isEmpty());
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         stack.push("0");
         Assert.assertFalse(stack.isEmpty());
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         stack.push("1");
         Assert.assertFalse(stack.isEmpty());
     }

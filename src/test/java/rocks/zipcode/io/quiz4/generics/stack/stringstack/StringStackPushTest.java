@@ -17,26 +17,26 @@ public class StringStackPushTest {
     }
 
     @Test
-    public void test1() {
+    public void test1Test() {
         Assert.assertNull(stack.peek());
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         String expected = "0";
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         String expected = "1";
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
-    public void test4() {
+    public void test4Test() {
         String val1 = "10";
         String val2 = "15";
         String val3 = "20";
@@ -51,7 +51,7 @@ public class StringStackPushTest {
     }
 
     @Test
-    public void test5() {
+    public void test5Test() {
         String  val1 = "30";
         String  val2 = "35";
         String  val3 = "40";

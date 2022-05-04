@@ -10,7 +10,7 @@ import rocks.zipcode.io.quiz4.generics.SortedGroup;
 public class StringSortedGroupInsertTest {
 
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "A";
@@ -36,7 +36,7 @@ public class StringSortedGroupInsertTest {
         Assert.assertEquals(indexOfFourthValue, 3);
     }
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "a";
@@ -63,7 +63,7 @@ public class StringSortedGroupInsertTest {
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "A";
@@ -91,7 +91,7 @@ public class StringSortedGroupInsertTest {
 
 
     @Test
-    public void test4() {
+    public void test4Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "Astro";
@@ -118,7 +118,7 @@ public class StringSortedGroupInsertTest {
     }
 
     @Test
-    public void test6() {
+    public void test6Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "Astro";
@@ -146,7 +146,7 @@ public class StringSortedGroupInsertTest {
 
 
     @Test
-    public void test7() {
+    public void test7Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "1";
@@ -173,7 +173,7 @@ public class StringSortedGroupInsertTest {
     }
 
     @Test
-    public void test8() {
+    public void test8Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = "102";
@@ -201,7 +201,7 @@ public class StringSortedGroupInsertTest {
 
 
     @Test
-    public void test9() {
+    public void test9Test() {
         // given
         SortedGroup<String> group = new SortedGroup<>();
         String firstValue = String.valueOf(Integer.MIN_VALUE + 2);

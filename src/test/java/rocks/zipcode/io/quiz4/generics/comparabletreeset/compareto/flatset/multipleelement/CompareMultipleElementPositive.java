@@ -10,7 +10,7 @@ import rocks.zipcode.io.quiz4.generics.ComparableTreeSet;
 public class CompareMultipleElementPositive {
 
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Burt", "Belly", "Bot");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Arty", "Fee", "Shawl");
@@ -24,7 +24,7 @@ public class CompareMultipleElementPositive {
 
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Corny", "Carl", "Cart");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("Candy", "Cane", "Corks");
@@ -38,7 +38,7 @@ public class CompareMultipleElementPositive {
 
 
     @Test
-    public void test3() {
+    public void test3Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("Corny", "Carl", "Cart");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("", "a", "z");

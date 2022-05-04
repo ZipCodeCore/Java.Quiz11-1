@@ -10,7 +10,7 @@ import rocks.zipcode.io.quiz4.generics.SortedGroup;
 @SuppressWarnings("all")
 public class IntegerSortedGroupDeleteTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
         Integer firstValue = 1;
@@ -64,7 +64,7 @@ public class IntegerSortedGroupDeleteTest {
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         // given
         SortedGroup<Integer> group = new SortedGroup<>();
         Integer firstValue = 1;

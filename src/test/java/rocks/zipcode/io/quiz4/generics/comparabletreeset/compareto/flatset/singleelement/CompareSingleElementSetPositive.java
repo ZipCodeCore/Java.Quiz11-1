@@ -9,7 +9,7 @@ import rocks.zipcode.io.quiz4.generics.ComparableTreeSet;
  */
 public class CompareSingleElementSetPositive {
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("b");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("a");
@@ -21,7 +21,7 @@ public class CompareSingleElementSetPositive {
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("c");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("a");
@@ -33,7 +33,7 @@ public class CompareSingleElementSetPositive {
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         // given
         ComparableTreeSet<String> set1 = new ComparableTreeSet<>("d");
         ComparableTreeSet<String> set2 = new ComparableTreeSet<>("a");

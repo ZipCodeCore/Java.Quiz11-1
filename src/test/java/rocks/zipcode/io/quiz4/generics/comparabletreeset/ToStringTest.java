@@ -9,7 +9,7 @@ import rocks.zipcode.io.quiz4.generics.ComparableTreeSet;
  */
 public class ToStringTest {
     @Test
-    public void test1() {
+    public void test1Test() {
         // given
         String[] input = "qwertyuiop".split("");
         ComparableTreeSet<String> set = new ComparableTreeSet<>(input);
@@ -23,7 +23,7 @@ public class ToStringTest {
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         // given
         String[] input = "asdfghjk".split("");
         ComparableTreeSet<String> set = new ComparableTreeSet<>(input);

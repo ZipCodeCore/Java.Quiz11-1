@@ -17,26 +17,26 @@ public class IntegerStackPushTest {
     }
 
     @Test
-    public void test1() {
+    public void test1Test() {
         Assert.assertNull(stack.peek());
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         Integer expected = 0;
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
-    public void test3() {
+    public void test3Test() {
         Integer expected = 1;
         stack.push(expected);
         Assert.assertEquals(stack.peek(), expected);
     }
 
     @Test
-    public void test4() {
+    public void test4Test() {
         Integer val1 = 10;
         Integer val2 = 15;
         Integer val3 = 20;
@@ -51,7 +51,7 @@ public class IntegerStackPushTest {
     }
 
     @Test
-    public void test5() {
+    public void test5Test() {
         Integer  val1 = 30;
         Integer  val2 = 30;
         Integer  val3 = 40;

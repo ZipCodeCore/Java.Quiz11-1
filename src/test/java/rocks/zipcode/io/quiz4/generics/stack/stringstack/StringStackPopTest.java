@@ -23,17 +23,17 @@ public class StringStackPopTest {
     }
 
     @Test(expected = EmptyStackException.class)
-    public void test1() {
+    public void test1Test() {
         stack.pop();
     }
 
     @Test
-    public void test2() {
+    public void test2Test() {
         test("765", "321", "9", "342", "98", "132");
     }
     
     @Test
-    public void test3() {
+    public void test3Test() {
         test("1123", "65", "4568", "21", "3154");
     }
 
